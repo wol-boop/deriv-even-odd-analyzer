@@ -1,0 +1,30 @@
+{
+  "name": "deriv-even-odd-analyzer",
+  "version": "1.0.0",
+  "description": "High-accuracy market scanner for analyzing even/odd patterns in Deriv trading data",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest",
+    "analyze": "node src/cli/analyzer.js"
+  },
+  "keywords": [
+    "deriv",
+    "trading",
+    "market-analysis",
+    "even-odd",
+    "pattern-recognition"
+  ],
+  "author": "wol-boop",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "ws": "^8.14.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1"
+  }
+}
